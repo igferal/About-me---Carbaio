@@ -11,7 +11,7 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/ignacio-fern%C3%A1ndez-%C3%A1lvarez-39271b177/',
     instagram: 'https://instagram.com/nacho_veiga',
   },
-  googleAnalyticsID: 'UA-88875900-4',
+  googleAnalyticsID: 'UA-87976667-2',
   themeColor: '#478E6E',
   backgroundColor: '#6b63ff',
   social: {
@@ -26,5 +26,5 @@ module.exports = {
     email: 'nachoveiga1014@gmail.com',
   },
   foundingDate: '2020',
-  recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+  recaptcha_key: '6Lf-RugUAAAAANlzXxLTDoSMQLO1J8T9_rKOp49w',
 };
