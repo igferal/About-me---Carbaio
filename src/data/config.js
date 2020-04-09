@@ -26,5 +26,5 @@ module.exports = {
     email: 'nachoveiga1014@gmail.com',
   },
   foundingDate: '2020',
-  recaptcha_key: '6Lf-RugUAAAAANlzXxLTDoSMQLO1J8T9_rKOp49w',
+  recaptcha_key: '6Le0TugUAAAAAN5paHI_v4vOp8spSl0-y8k0FNvT',
 };
