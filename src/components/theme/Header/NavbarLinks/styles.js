@@ -17,7 +17,8 @@ export const Wrapper = styled.div`
 					margin-right: 1rem;
 
 					&:last-child {
-							margin-right: unset;
+							
+							marginRight : 20
 					}
 			}
 		`
@@ -30,7 +31,8 @@ export const Wrapper = styled.div`
 					margin-bottom: 1rem;
 
 					&:last-child {
-							margin-bottom: unset;
+							
+							marginRight : 20
 					}
 			}
 	`}

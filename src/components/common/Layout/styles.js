@@ -600,8 +600,14 @@ export const Global = createGlobalStyle`
       }
     }
     body {
+      --bg: white;
+
+      --title: #212121;
+      --text :#707070
+
       margin: 0;
       padding: 0;
+      background-color: var(--bg);
       font-family: 'Lato', Helvetica, sans-serif;
       color: hsla(0, 0%, 0%, 0.8);
       font-weight: normal;
@@ -611,6 +617,21 @@ export const Global = createGlobalStyle`
       -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+      transition: background-color 0.5s ease;
+    }
+
+    body.dark {
+      -webkit-font-smoothing: antialiased;    
+      --bg: #333333;
+
+      --title : #fff;
+      --text : #F4F4F4
+
+      transition: background-color 0.5s ease;
+    }
+    
+    h1:{
+      color: var(--title)
     }
 
     a {
