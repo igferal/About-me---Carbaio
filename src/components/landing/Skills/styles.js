@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import detailsIllustration from 'assets/illustrations/details.svg';
+import styled from "styled-components";
+import detailsIllustration from "assets/illustrations/details.svg";
 
 export const Wrapper = styled.div`
   background-image: url(${detailsIllustration});
@@ -26,6 +26,7 @@ export const Details = styled.div`
   @media (max-width: 960px) {
     padding-left: unset;
     width: 100%;
+    margin-top: 50%;
   }
 
   h1 {
